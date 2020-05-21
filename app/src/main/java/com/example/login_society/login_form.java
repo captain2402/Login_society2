@@ -29,11 +29,11 @@ public class login_form extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_form);
-        getSupportActionBar().setTitle("LoginForm");
+        //getSupportActionBar().setTitle("LoginForm");
 
-        txtEmail=(EditText)findViewById(R.id.et_email);
-        txtPassword=(EditText)findViewById(R.id.password);
-        btn_login=(Button)findViewById(R.id.button);
+        txtEmail=findViewById(R.id.et_email);
+        txtPassword=findViewById(R.id.password);
+        btn_login=findViewById(R.id.button);
         firebaseAuth=FirebaseAuth.getInstance();
 
 

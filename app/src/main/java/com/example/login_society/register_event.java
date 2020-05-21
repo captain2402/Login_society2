@@ -110,6 +110,7 @@ public class register_event extends AppCompatActivity {
                 databaseReference.push().setValue((events));
 
                     Toast.makeText(register_event.this, "Data Insertion Sucessful", Toast.LENGTH_SHORT).show();
+                    finish();
                 
 
 
